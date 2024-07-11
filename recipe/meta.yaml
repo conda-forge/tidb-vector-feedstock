@@ -1,5 +1,5 @@
 {% set name = "tidb-vector" %}
-{% set version = "0.0.9" %}
+{% set version = "0.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tidb_vector-{{ version }}.tar.gz
-  sha256: e10680872532808e1bcffa7a92dd2b05bb65d63982f833edb3c6cd590dec7709
+  sha256: cb4e2c88610b63729e0f779ccd599f4c1e77a308f0baefd0a4c69d47f7d2baa0
 
 build:
   noarch: python
