@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tidb-vector
-  version: "0.0.15"
+  version: 0.0.15
 
 package:
   name: ${{ name|lower }}
@@ -19,7 +19,7 @@ build:
 
 requirements:
   host:
-    - python ${{ python_min }}
+    - python ${{ python_min }}.*
     - poetry-core
     - pip
   run:
